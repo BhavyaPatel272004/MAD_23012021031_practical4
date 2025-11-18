@@ -17,7 +17,7 @@ This practical demonstrates how to create a fully functional **Alarm Application
 - **TimePickerDialog** → Allows user to select alarm time  
 - **Calendar Class** → Handles time conversion  
 - **SimpleDateFormat** → Displays selected alarm time  
-- **MaterialCardView** → UI layout component for better design  
+- **MaterialCardView** → Used for UI layout  
 
 The application provides the following features:  
 
@@ -33,10 +33,10 @@ The application provides the following features:
 
 | Screenshot | Description |  
 |------------|-------------|  
-| <p align="center"><img src="screenshots/mainSc.jpeg" width="250"/></p> | The **Main Screen** displays current time and a button to set the alarm. |
-| <p align="center"><img src="screenshots/Alarmset.jpeg" width="250"/></p> | After selecting the time, a **Toast** appears and the **Cancel Alarm** button becomes visible. |
-| <p align="center"><img src="screenshots/notification .jpeg" width="250"/></p> | When the alarm triggers, **BroadcastReceiver** activates and **AlarmService** plays sound. |
-| <p align="center"><img src="screenshots/alarmstop.jpeg" width="250"/></p> | After pressing stop/cancel, the alarm ringtone stops and service terminates. |
+| <p align="center"><img src="screenshots/mainSc.jpeg" width="250"/></p> | The **Main Screen** displays the current time and a button to set an alarm. |
+| <p align="center"><img src="screenshots/Alarmset.jpeg" width="250"/></p> | After selecting time, a **Toast message** appears and the **Cancel Alarm** button becomes visible. |
+| <p align="center"><img src="screenshots/notification .jpeg" width="250"/></p> | When the alarm triggers, the **BroadcastReceiver** activates and the **AlarmService** starts playing the ringtone. |
+| <p align="center"><img src="screenshots/alarmstop.jpeg" width="250"/></p> | After pressing stop/cancel, the alarm sound is stopped and the service ends successfully. |
 
 ---
 
@@ -60,5 +60,22 @@ The application provides the following features:
 
 ```xml
 <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+```
 
-## 📘 Student Details > **Name:** *Bhavya Patel* > **Enrollment:** *23012021031* > **Batch:** *5IT-B-1*
+## 🧪 Result  
+
+The Android application was successfully created to demonstrate **Alarm Scheduling** using  
+**BroadcastReceiver**, **Service**, and **AlarmManager**.  
+The app allows users to **set an alarm, trigger it at the selected time, play ringtone using a service,**  
+and also **cancel/stop the alarm** when required.  
+
+All required components like **TimePickerDialog, Calendar, PendingIntent, MediaPlayer,  
+sendBroadcast(), startService() and stopService()** were implemented successfully.
+
+
+## 📘 Student Details
+
+>  **Name:** *Bhavya Patel*  
+>  **Enrollment:** *23012021031*  
+>  **Batch:** *5IT-B-1*  
+
