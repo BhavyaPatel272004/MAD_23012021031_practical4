@@ -60,3 +60,5 @@ The application provides the following features:
 
 ```xml
 <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+
+## 📘 Student Details > **Name:** *Bhavya Patel* > **Enrollment:** *23012021031* > **Batch:** *5IT-B-1*
